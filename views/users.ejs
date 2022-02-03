@@ -1,0 +1,13 @@
+<h1>Daftar User</h1>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Position</td>
+    </tr>
+    <% users.forEach(function(user){ %>
+        <tr>
+            <td><%= user.name %></td>
+            <td><%= user.position %></td>
+        </tr>
+    <% }); %>
+</table>
